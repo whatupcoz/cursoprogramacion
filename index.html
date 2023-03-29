@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de creación de elementos con JavaScript</title>
+</head>
+<body>
+  <div id="mi-div">
+    <!-- aquí se agregará el nuevo elemento -->
+  </div>
+
+  <script>
+    // Crea un nuevo elemento HTML
+    var newElement = document.createElement('p');
+
+    // Agrega contenido al elemento
+    var newContent = document.createTextNode('Hola, mundo!');
+    newElement.appendChild(newContent);
+
+    // Agrega el nuevo elemento al documento HTML
+    var target = document.getElementById('mi-div');
+    target.appendChild(newElement);
+  </script>
+</body>
+</html>
