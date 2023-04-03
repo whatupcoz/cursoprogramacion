@@ -19,8 +19,7 @@ body{
 }
 h1{
   font-size: 60px;
-  background-color: #e2cb45;
-  color: aliceblue;
+  color: rgb(175, 161, 82);
 }
 span{
     font-size: 60px;
@@ -70,3 +69,35 @@ span{
   p{
     font-size: 50px;
   }
+  /* This is for the background image 
+  header {
+    background-image: url("/imagenes/finalahorasi.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    opacity: 1; /* adjust to desired opacity */
+    header {
+      position: relative;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -800px;
+      width: 1975px;
+      height: 100%;
+      background-image: url("/imagenes/finalahorasi.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.5;
+    } 
+    header img {
+      position: relative;
+      z-index: 1;
+    }
+#gifcompany {
+  width: 450px; 
+  height: 550px;
+}
+
